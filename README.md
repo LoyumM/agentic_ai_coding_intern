@@ -2,7 +2,8 @@
 
 
 ## Core structure
-coding-intern-agent/
+```text
+Multi_agent_code_generation/
 ├── agents/
 │   ├── graph.py          # LangGraph orchestration and flow logic
 │   ├── nodes.py          # Python functions for Coder, Tester, and Debugger
@@ -16,3 +17,4 @@ coding-intern-agent/
 │   └── sample_tasks.py   # A few boilerplates to test the agent
 ├── config.py             # Model names and Ollama configurations
 └── requirements.txt
+```
